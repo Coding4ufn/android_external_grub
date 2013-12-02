@@ -1,7 +1,8 @@
 const char *preset_menu =
     "rootnoverify (hd0,0)\n"
     "default=1\n"
-    "timeout 3\n"
+    "hiddenmenu\n"
+    "timeout 0\n"
     "fallback 1 0\n"
     "\n"
     "title Android Install to /dev/sda from /dev/sdb\n"
