@@ -6,6 +6,6 @@ const char *preset_menu =
     "fallback 0\n"
     "\n"
     "title SVMP Startup from /dev/sda\n"
-    "       cmdline (hd0,1)/cmdline\n"
-    "       kernel --use-cmd-line (hd0,1)/kernel\n"
-    "       initrd (hd0,1)/ramdisk\n";
+    "       cmdline (hd0,0)/cmdline\n"
+    "       kernel --use-cmd-line (hd0,0)/kernel\n"
+    "       initrd (hd0,0)/ramdisk\n";
